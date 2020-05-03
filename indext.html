@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />  
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <h2 id="currentDay" class="lead"></h2>
+    </header>
+    <div class="container description">
+      <!-- Timeblocks go here -->
+        <div class="row time-block">
+    
+          <p class="col-sm-2 hour">9:00AM</p>  
+         
+          <textarea class='col-sm-8 input-text' data-hour= "9"></textarea>
+         
+          <button class="saveBtn col-sm-2"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row time-block">
+          
+          <p class="col-sm-2 hour">10:00AM</p>
+
+          <textarea class='col-sm-8 input-text' data-hour= "10"></textarea>
+
+          
+          <button class="saveBtn col-sm-2"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row time-block">
+          <p class="col-sm-2 hour">11:00AM</p>
+
+                    <textarea class='col-sm-8 input-text' data-hour= "11"></textarea>
+          
+          
+          <button class="saveBtn col-sm-2"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row time-block">
+          <p class="col-sm-2 hour">12:00PM</p>
+
+                    <textarea class='col-sm-8 input-text' data-hour= "12"></textarea>
+
+          
+          <button class="saveBtn col-sm-2"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row time-block">
+          <p class="col-sm-2 hour">1:00PM</p>
+
+                    <textarea class='col-sm-8 input-text' data-hour= "13"></textarea>
+
+          
+          <button class="saveBtn col-sm-2"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row time-block">
+          <p class="col-sm-2 hour">2:00PM</p>
+         
+                    <textarea class='col-sm-8 input-text' data-hour= "14"></textarea>
+
+          
+          <button class="saveBtn col-sm-2"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row time-block">
+          <p class="col-sm-2 hour">3:00PM</p>
+            
+                    <textarea class='col-sm-8 input-text' data-hour= "15"></textarea>
+
+          
+          <button class="saveBtn col-sm-2"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row time-block">
+          <p class="col-sm-2 hour">4:00PM</p>
+          
+                    <textarea class='col-sm-8 input-text' data-hour= "16"></textarea>
+
+      
+          <button class="saveBtn col-sm-2"><i class="far fa-save"></i></button>
+        </div>
+        <div class="row time-block">
+          <p class="col-sm-2 hour">5:00PM</p>
+            
+                    <textarea class='col-sm-8 input-text' data-hour= "17"></textarea>
+
+          
+          <button class="saveBtn col-sm-2"><i class="far fa-save"></i></button>
+        </div>
+    </div>
+</div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
